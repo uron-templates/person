@@ -1,0 +1,17 @@
+{
+    "editor.formatOnPaste": false,
+    "eslint.validate": [],
+    "eslint.autoFixOnSave": false,
+    "javascript.validate.enable": false,
+    "standard.enable": true,
+    "standard.run": "onType",
+    "standard.autoFixOnSave": true,
+    "standard.semistandard": true,
+    "standard.options": {
+        "ignore": [
+            "node_modules/**"
+        ],
+        "parser": "babel-eslint",
+    },
+    "editor.tabSize": 2
+}

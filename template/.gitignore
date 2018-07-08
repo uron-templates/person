@@ -1,6 +1,6 @@
 
-.env
-config/local*
+{{#if true}}.env{{/if}}
+{{#if true}}config/local*{{/if}}
 dist
 __*
 
@@ -8,11 +8,11 @@ __*
 
 ### Code ###
 # Visual Studio Code - https://code.visualstudio.com/
-.settings/
-.vscode/*
-!.vscode/launch.json
-tsconfig.json
-jsconfig.json
+{{#if true}}.settings/{{/if}}
+{{#if true}}.vscode/*{{/if}}
+{{#if true}}!.vscode/launch.json{{/if}}
+{{#if true}}tsconfig.json{{/if}}
+{{#if true}}jsconfig.json{{/if}}
 
 ### Linux ###
 *~
@@ -112,10 +112,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
-
 
 ### Windows ###
 # Windows thumbnail cache files
