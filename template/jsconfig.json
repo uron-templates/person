@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "es2017",
+        "paths": {
+            {{#db}}
+            "@model/*": ["./src/server/model/*"],
+            {{/db}}
+            "@utils/*": ["./src/utils/*"],
+            "@s-service/*": ["./src/server/service/*"]
+        }
+    }
+}
