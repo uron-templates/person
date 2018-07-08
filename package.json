@@ -1,0 +1,27 @@
+{
+  "name": "uron-template-standard",
+  "version": "0.0.1",
+  "description": "an uron template of standard",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uron-templates/standard.git"
+  },
+  "keywords": [
+    "uron",
+    "koa",
+    "server"
+  ],
+  "author": "lingximu (lingxiweb@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uron-templates/standard/issues"
+  },
+  "homepage": "https://github.com/uron-templates/standard#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+  }
+}
