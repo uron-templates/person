@@ -7,7 +7,9 @@
     "transform-es2015-parameters",
     ["module-resolver", {
       "alias": {
+        {{#db}}
         "@model": "./src/server/model",
+        {{/db}}
         "@utils": "./src/utils",
         "@s-service": "./src/server/service"
       },

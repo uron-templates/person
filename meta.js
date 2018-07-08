@@ -12,8 +12,26 @@ const pkg = require('./package.json')
 const templateVersion = pkg.version
 
 module.exports = {
-  metalsmith: {},
+  metalsmith: {
+    before: (metalsmith, options, helpers) => {
+      Object.assign(
+        metalsmith.metadata(),
+        {
+          graphql:true,
+          db:true
+        },
+      )
+    }
+  },
   helpers: {
+    if_or(v1, v2, options) {
+
+      if (v1 || v2) {
+        return options.fn(this)
+      }
+
+      return options.inverse(this)
+    },
     template_version() {
       return templateVersion
     },
@@ -43,11 +61,13 @@ module.exports = {
     graphql: {
       type: 'confirm',
       message: 'Use graphql?',
+      default: true
     },
     db: {
       when:'!graphql',
       type: 'confirm',
       message: 'Use db?',
+      default: true
     },
     autoInstall: {
       type: 'list',
