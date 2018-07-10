@@ -1,24 +1,24 @@
 {
-  "name": "uron-template-standard",
+  "name": "uron-template-person",
   "version": "0.0.1",
-  "description": "an uron template of standard",
+  "description": "an uron template of person",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uron-templates/standard.git"
+    "url": "git+https://github.com/uron-templates/person.git"
   },
   "keywords": [
     "uron",
     "koa",
     "server"
   ],
-  "author": "lingximu (lingxiweb@gmail.com)",
-  "license": "ISC",
+  "author": "lingximu(lingxiweb@gmail.com)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uron-templates/standard/issues"
+    "url": "https://github.com/uron-templates/person/issues"
   },
-  "homepage": "https://github.com/uron-templates/standard#readme",
+  "homepage": "https://github.com/uron-templates/person#readme",
   "dependencies": {
     "chalk": "^2.4.1"
   },
