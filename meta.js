@@ -75,14 +75,14 @@ module.exports = {
         'Should we run `npm install` for you after the project has been created? (recommended)',
       choices: [
         {
-          name: 'Yes, use NPM',
-          value: 'npm',
-          short: 'npm',
-        },
-        {
           name: 'Yes, use Yarn',
           value: 'yarn',
           short: 'yarn',
+        },
+        {
+          name: 'Yes, use NPM',
+          value: 'npm',
+          short: 'npm',
         },
         {
           name: 'No, I will handle that myself',
