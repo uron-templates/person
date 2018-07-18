@@ -53,5 +53,3 @@ query{
 能返回数据库中 fruits 的 id 和 name 数据，则说明 graphql 功能正常。
 
 <hr >
-
-## 项目结构
